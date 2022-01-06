@@ -1,0 +1,24 @@
+.song {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: center;
+    color: #222f3e;
+    background-color: #f1f2f6; 
+}
+
+.song .img img {
+    height: 300px;
+    padding-bottom: 100px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .song .img img {
+        max-height: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
